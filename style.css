@@ -10,14 +10,17 @@ body {
   color: #1a2e1a;
 }
 
-/*  HEADER */
 header {
   min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #1a3320;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/mountain-lake1.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 40px;
 }
 
